@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Your own server",
+            "server": "http://kepty-demo",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default"
+        },
+        {
+            "type": "al",
+            "name": "Artex DEMO CLOUD",
+            "request": "launch",
+            "tenant": "2fb165ea-8dc4-4800-ace7-db202bb064e6",
+            "environmentType": "Production",
+        }
+    ]
+}

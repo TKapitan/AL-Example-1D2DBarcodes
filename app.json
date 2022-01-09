@@ -1,0 +1,37 @@
+{
+  "id": "16fc7673-6872-4608-bfc7-2b0a7c74f2ef",
+  "name": "TKA Examples: 2D Codes",
+  "publisher": "Kepty.cz",
+  "version": "1.0.0.10005",
+  "brief": "Example of 2D codes",
+  "description": "Example of 2D codes",
+  "privacyStatement": "https://www.kepty.cz",
+  "contextSensitiveHelpUrl": "https://www.kepty.cz",
+  "EULA": "https://www.kepty.cz",
+  "help": "https://www.kepty.cz",
+  "url": "https://www.kepty.cz",
+  "logo": "res/logo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "19.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "features": [
+    "TranslationFile"
+  ],
+  "suppressWarnings": [
+    "AS0084",
+    "AS0092"
+  ],
+  "runtime": "8.0"
+}
